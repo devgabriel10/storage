@@ -1,0 +1,45 @@
+#color-palette {
+  
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 15px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+.purple{
+  background-color: purple;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.brown{
+  background-color: brown;
+}
+
+.pink {
+  background-color: pink;
+}
