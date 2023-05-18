@@ -56,15 +56,32 @@ const randomColors = () => {
         }
       }
      }
+
+    let item1 = localStorage.setItem('updateColor1', colors[1].className);
+    let item2 = localStorage.setItem('updateColor2', colors[2].className);
+    let item3 = localStorage.setItem('updateColor3', colors[3].className);
+   
   })
 };
 
 randomColors();
 
-// Requisito 5: 
+// Requisito 5
 
  const storageColors = () => {
- 
-};  
+  let colors = document.querySelectorAll('li');
+
+  for (let index = 1; index <= colors.length; index += 1){ 
+    if (index == 1) {
+      colors[1].className = localStorage.getItem('updateColor1');
+    }
+    if (index == 2){
+      colors[2].className = localStorage.getItem('updateColor2');
+    }  
+    if (index == 3) {
+    colors[3].className = localStorage.getItem('updateColor3');
+    }
+  }  
+}
 
 storageColors();
